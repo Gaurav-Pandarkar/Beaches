@@ -1,0 +1,66 @@
+name: ai_crop_disease_system
+description: An AI-driven crop disease prediction and management system.
+publish_to: "none" # Keep this line if you're not publishing to pub.dev
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0 # Font Awesome icons for UI
+  google_maps_flutter: ^2.2.0
+  # intl: ^0.18.0 # For internationalization and formatting
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+
+  #  image_picker: ^0.8.4+10
+  # permission_handler: ^10.0.0 # Optional for animated text effects in the app
+  # http: ^0.15.0 # For making HTTP requests (e.g., to fetch weather data)
+
+  permission_handler: ^10.2.0 # Use the latest stable version
+  image_picker: ^0.8.7+3
+  shared_preferences: ^2.0.6
+  # firebase_core: ^1.10.6 # Older version compatible with lower SDK
+  # firebase_auth: ^3.3.0
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/beach.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  http: ^0.13.5
+  flutter_launcher_icons: ^0.13.1
+
+  geolocator: ^9.0.2
+  intl_utils: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/beach.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Your app's logo
+    # Uncomment and add any additional assets as needed, like logos or user/weather icons
+
+    - assets\loader.gif
+    - assets\home.jpg
+    - assets\userProfile.jpg
+    - assets\upload.png
+    - assets/beach.png
+    - assets/beach_loader.gif
+    - assets/alibagh.png
+    - assets/harihareshwar.png
+    - assets/kashid.png
+    - assets/mandawa.png
+    # - assets/user.png
+    # - assets/weather_icon.png
